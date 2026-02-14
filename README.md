@@ -71,3 +71,20 @@ POST http://localhost:8080/users
 - Input validation
 - JWT Authentication
 - Product & Order modules
+
+---
+
+## ✅ Roadmap (In Progress)
+
+- [x] Project setup + basic REST API
+- [x] User module (Create, Get by ID)
+- [ ] MySQL integration + JPA/Hibernate
+- [ ] Repository + Service layer separation
+- [ ] DTO + Validation
+- [ ] Global Exception handling
+- [ ] JWT Authentication
+- [ ] Product module
+- [ ] Cart module
+- [ ] Order module
+- [ ] Swagger API documentation
+
