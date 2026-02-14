@@ -1,39 +1,73 @@
-# ShopSphere (Backend) – Spring Boot REST API
+# ShopSphere-Backend 🛒
 
-ShopSphere is a backend REST API project built using **Java** and **Spring Boot**.
-The project currently focuses on user management and RESTful API development.
+> 🚧 Status: In Progress — Expanding from user module to full e-commerce backend system.
 
-## Tech Stack
+ShopSphere is a backend REST API system built using Java and Spring Boot.  
+The goal of this project is to simulate a scalable e-commerce backend with clean architecture and production-ready design principles.
+
+---
+
+## 🚀 Tech Stack
+
 - Java
 - Spring Boot
 - Maven
-- REST APIs, HTTP, JSON
+- REST APIs
+- JSON
 - Postman
-- GitHub
+- Git
 
-## Features (Current)
+---
+
+## 🏗 Architecture
+
+This project follows a layered architecture:
+
+Controller → Service → Repository (Upcoming)  
+
+Clear separation of concerns is maintained to ensure scalability and maintainability.
+
+---
+
+## 📌 Current Features
+
+- Health Check API
 - Create User API
 - Get User by ID API
-- Basic health check endpoint
+- RESTful request/response handling
 
-## API Endpoints
+---
+
+## 📡 API Endpoints
 
 ### Health Check
-- GET `/hello`
+GET /hello
 
 ### User APIs
-- POST `/users`
-- GET `/users/{id}`
+POST /users  
+GET /users/{id}
 
-## Sample Request
+---
 
-### Create User
-POST `http://localhost:8080/users`
+## 📝 Sample Request
 
-```json
+POST http://localhost:8080/users
+
 {
   "name": "Keerthika",
   "email": "keerthika@gmail.com",
   "password": "1234",
   "phone": "9999999999"
 }
+
+---
+
+## 🔜 Upcoming Enhancements
+
+- MySQL database integration
+- JPA/Hibernate persistence layer
+- DTO pattern implementation
+- Exception handling (Global)
+- Input validation
+- JWT Authentication
+- Product & Order modules
